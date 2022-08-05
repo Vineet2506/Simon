@@ -9,9 +9,8 @@ var level = 0;
 $(".button").click(function() {
   $("#level-title").text("Level " + level);
   nextSequence();
-  if(started = true){
-    $(".button").hide();
-  }
+  started = true;
+  $(".button").hide();
 
 
 });
